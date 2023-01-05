@@ -3,9 +3,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+API_ID = os.getenv("API_ID", "5484962").strip()
+API_HASH = os.getenv("API_HASH", "fae1c43de01a54ca65f738ebf931862d").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5382236039:AAG8gnIWxkekPUF3JU5dmIx2sYg5OIrJuhY").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "")
 
